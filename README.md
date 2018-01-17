@@ -4,3 +4,5 @@ This repo was created to show an error that happens with opening multiple excel 
 To recreate the problem, you need to clone/fork this repo. Then do `npm install` to download all the necessary packages.
 
 The program will prompt you to provide a path to an excel file. To reproudce the problem, make sure you have at least one other excel file open. You will see that the console prints out the message **'This message will be printed to the console after file was closed'** before closing the file you just opened. The correct behaviour is to wait until you close the file.
+
+For more information, refer to this thread in [stackoverflow](https://stackoverflow.com/questions/48269910/opening-an-excel-file-with-opn-while-another-excel-file-is-open-will-execute-co/48271979?noredirect=1#comment83567382_48271979)
