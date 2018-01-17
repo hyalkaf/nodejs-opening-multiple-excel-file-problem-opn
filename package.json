@@ -1,0 +1,14 @@
+{
+  "name": "problem-exiting-excel-file-after-opn",
+  "version": "0.0.1",
+  "description": "This repo is showing a problem with opening an excel file while other excel files are open. It won't wait before executing callback after opening file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hussein Al-kaf",
+  "license": "ISC",
+  "devDependencies": {
+    "opn": "^5.2.0"
+  }
+}
